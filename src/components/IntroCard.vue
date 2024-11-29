@@ -29,7 +29,7 @@
 
     <!-- Imagen con esquinas redondeadas y sombreado -->
     <img
-      src="https://shykandev.github.io/medicinaparadiabetes/assets/mainHome-EGZr2Qar.jpg"
+      src="https://i.ibb.co/x8jP5bQ/insta-Go-Main.jpg"
       class="w-[40%] rounded-lg shadow-md"
       alt="Imagen representativa de InstaGo"
     />
