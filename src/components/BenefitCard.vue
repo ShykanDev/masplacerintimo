@@ -1,5 +1,5 @@
 <template>
-  <div class="m-4 border rounded-lg shadow-md card w-72 font-poppins">
+  <div class="m-4 border rounded-lg shadow-md card 3/4 md:w-72 font-poppins">
     <img :src="image" :alt="title" class="object-cover w-full h-48 rounded-t-lg card-img" />
     <div class="p-4 card-body">
       <h3 class="mb-2 text-2xl font-semibold text-orange-800 border-b card-title border-b-orange-600">{{ title }}</h3>

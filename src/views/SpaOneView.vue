@@ -2,8 +2,13 @@
   <div class="">
       <MainLayout>
           <template #main>
+            <h1 class="p-4 py-4 mb-8 text-3xl font-semibold text-center text-white shadow-lg md:text-5xl rounded-b-md font-poppins bg-gradient-to-r from-orange-500 via-pink-600 to-red-700 animate-fade">
+  Beneficios que InstaGo le ofrece
+</h1>
+
+
             <section class="flex flex-wrap gap-4 justify-evenly">
-              <BenefitCard v-for="benefit in benefits" :key="benefit.image" :image="benefit.image" :title="benefit.title" :summary="benefit.summary"/>
+              <BenefitCard data-aos="zoom-in-up" v-for="benefit in benefits" :key="benefit.image" :image="benefit.image" :title="benefit.title" :summary="benefit.summary"/>
             </section>
           </template>
       </MainLayout>

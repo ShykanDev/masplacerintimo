@@ -2,8 +2,13 @@
     <div class="">
       <MainLayout>
         <template #main>
-          <section class="flex flex-col gap-32">
-            <MainInfoCard v-for="card in cardsData" :key="card.title" :title="card.title" :image="card.image" :list="card.list" :summary="card.summary" />
+
+          <section>
+            <IntroCard/>
+          </section>
+
+          <section class="flex flex-col gap-32 overflow-hidden">
+            <MainInfoCard data-aos="fade-up-left" v-for="card in cardsData" :key="card.title" :title="card.title" :image="card.image" :list="card.list" :summary="card.summary" />
           </section>
 
           <section>
@@ -17,11 +22,11 @@
           <section>
             <h2 class="py-5 text-5xl font-bold text-center font-poppins text-rose-700">Noticias</h2>
           <article class="flex flex-wrap justify-around w-full gap-11">
-            <NewsCard title="Sexualidad & Ayurveda" summary="El Ayurveda considera el sexo como un pilar para una vida saludable junto con la comida y el descanso. Sin embargo, Kama (el deseo) debe estar en control, ya que en exceso causa pérdidas." image="https://indiaveda.com/img/cms/Blog/SexualidadInterior.png" url='https://indiaveda.com/blog/post/sexualidad-ayurveda#:~:text=El%20Ayurveda%20considera%20el%20sexo,que%20en%20exceso%20causa%20p%C3%A9rdidas.' />
-            <NewsCard title="Ayurveda en la Intimidad" summary="El ayurveda ya hace 5 mil años vió el sexo como una necesidad básica para una vida saludable junto con la comida y el sueño. De hecho, la milenaria ciencia médica hindú tenía una terapia exclusiva para la mejora de la vida sexual en hombres y mujeres llamada Vaji Karana-terapia afrodisiaca." url='https://www.aleksandrapytlak.com/ayurveda-sexualidad/' image="https://www.aleksandrapytlak.com/wp-content/uploads/2021/12/que-es-y-para-que-sirve-1-1-scaled.jpg" />
-            <NewsCard title="Ayurveda y Sexo Tantrico" summary=" Por el lado del Ayurveda, la idea de unir los biotipos con la energía sexual del Tantra nos lleva a exploraqr, descubrir y divertirnos con las más sutiles y poderosas energías. En una lectura práctica, nos hará llegar a una vida sexual muchos más larga, plena y placentera." url='https://latam.casadellibro.com/libro-ayurveda-y-sexo-tantrico/9789876343336/2502197' image="https://imagessl6.casadellibro.com/a/l/s7/36/9789876343336.webp" />
-            <NewsCard title="El Ayurveda: comprendiendo la “ciencia de la vida”" summary="No es una moda (lleva practicándose más de 5,000 años en la India), ni es una ciencia vacía (ha sido reconocido por la Organización Mundial de la Salud como un sistema médico tradicional): el Ayurveda es filosofía, medicina y estilo de vida. " url='https://www.admagazine.com/editors-pick/el-ayurveda-comprendiendo-la-ciencia-de-la-vida-20211102-9236-articulos' image="https://media.admagazine.com/photos/618a5d26532cae908aaf27d4/master/w_1600,c_limit/97398.jpg" />
-            <NewsCard title="Masaje Ayurvédico " summary="El Ayurveda es originario de la India y consiste en un sistema de medicina tradicional con más de 5.000 años de antigüedad. En términos sánscritos, Ayurveda quiere decir ciencia o conocimiento de la vida." url='https://beaire.com/es/aire-magazine/masaje-ayurvedico-tecnicas-y-principios-hindues' image="https://beaire.com/sites/default/files/styles/magazine_430x300/public/1_masajes_easy-resize.com_.jpg?itok=DBFarqBM" />
+            <NewsCard data-aos="flip-left" title="Sexualidad & Ayurveda" summary="El Ayurveda considera el sexo como un pilar para una vida saludable junto con la comida y el descanso. Sin embargo, Kama (el deseo) debe estar en control, ya que en exceso causa pérdidas." image="https://indiaveda.com/img/cms/Blog/SexualidadInterior.png" url='https://indiaveda.com/blog/post/sexualidad-ayurveda#:~:text=El%20Ayurveda%20considera%20el%20sexo,que%20en%20exceso%20causa%20p%C3%A9rdidas.' />
+            <NewsCard data-aos="flip-left" title="Ayurveda en la Intimidad" summary="El ayurveda ya hace 5 mil años vió el sexo como una necesidad básica para una vida saludable junto con la comida y el sueño. De hecho, la milenaria ciencia médica hindú tenía una terapia exclusiva para la mejora de la vida sexual en hombres y mujeres llamada Vaji Karana-terapia afrodisiaca." url='https://www.aleksandrapytlak.com/ayurveda-sexualidad/' image="https://www.aleksandrapytlak.com/wp-content/uploads/2021/12/que-es-y-para-que-sirve-1-1-scaled.jpg" />
+            <NewsCard data-aos="flip-left" title="Ayurveda y Sexo Tantrico" summary=" Por el lado del Ayurveda, la idea de unir los biotipos con la energía sexual del Tantra nos lleva a exploraqr, descubrir y divertirnos con las más sutiles y poderosas energías. En una lectura práctica, nos hará llegar a una vida sexual muchos más larga, plena y placentera." url='https://latam.casadellibro.com/libro-ayurveda-y-sexo-tantrico/9789876343336/2502197' image="https://imagessl6.casadellibro.com/a/l/s7/36/9789876343336.webp" />
+            <NewsCard data-aos="flip-left" title="El Ayurveda: comprendiendo la “ciencia de la vida”" summary="No es una moda (lleva practicándose más de 5,000 años en la India), ni es una ciencia vacía (ha sido reconocido por la Organización Mundial de la Salud como un sistema médico tradicional): el Ayurveda es filosofía, medicina y estilo de vida. " url='https://www.admagazine.com/editors-pick/el-ayurveda-comprendiendo-la-ciencia-de-la-vida-20211102-9236-articulos' image="https://media.admagazine.com/photos/618a5d26532cae908aaf27d4/master/w_1600,c_limit/97398.jpg" />
+            <NewsCard data-aos="flip-left" title="Masaje Ayurvédico " summary="El Ayurveda es originario de la India y consiste en un sistema de medicina tradicional con más de 5.000 años de antigüedad. En términos sánscritos, Ayurveda quiere decir ciencia o conocimiento de la vida." url='https://beaire.com/es/aire-magazine/masaje-ayurvedico-tecnicas-y-principios-hindues' image="https://beaire.com/sites/default/files/styles/magazine_430x300/public/1_masajes_easy-resize.com_.jpg?itok=DBFarqBM" />
           </article>
           </section>
 
@@ -36,6 +41,7 @@ import MainInfoCard from '@/components/home/MainInfoCard.vue';
 import AyutvedaInfo from '@/components/AyurvedaInfo.vue';
 import PageSecure from '@/components/PageSecure.vue';
 import NewsCard from '@/components/NewsCard.vue';
+import IntroCard from '@/components/IntroCard.vue';
 
 const cardsData = [
   {

@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg">
+  <div class="max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg font-poppins">
     <!-- Imagen de la card -->
     <img :src="image" alt="Beneficio" class="object-cover w-full h-48">
 

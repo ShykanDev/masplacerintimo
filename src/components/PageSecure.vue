@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col items-center p-6 mx-auto bg-gray-100 rounded-lg shadow-lg font-poppins">
+  <div class="flex flex-col items-center p-6 mx-auto rounded-lg shadow-lg font-poppins">
     <!-- Título de la sección -->
-    <h2 class="mb-4 text-xl font-semibold text-center text-emerald-700">
-      Seguridad y Confianza en InstaGo
+    <h2 class="mb-4 text-4xl font-semibold text-center text-rose-700">
+      Seguridad de Nuestra Página
     </h2>
 
     <!-- Descripción de la seguridad -->

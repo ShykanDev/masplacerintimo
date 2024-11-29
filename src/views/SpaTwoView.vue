@@ -2,8 +2,11 @@
   <div class="">
       <MainLayout>
           <template #main>
+            <h1 class="p-4 py-4 mb-8 text-3xl font-semibold text-center text-white shadow-lg md:text-5xl rounded-b-md font-poppins bg-gradient-to-r from-orange-500 via-pink-600 to-red-700 animate-fade">
+    Ingredientes 100% Naturales de InstaGo
+</h1>
             <section class="flex flex-wrap gap-4 justify-evenly">
-              <BenefitsCard v-for="ingredient in ingredients" :key="ingredient.image" :image="ingredient.image" :title="ingredient.title" :summary="ingredient.summary" :lists="ingredient.lists"/>
+              <BenefitsCard data-aos="fade-up" v-for="ingredient in ingredients" :key="ingredient.image" :image="ingredient.image" :title="ingredient.title" :summary="ingredient.summary" :lists="ingredient.lists"/>
             </section>
           </template>
       </MainLayout>
