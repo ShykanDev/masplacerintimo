@@ -24,6 +24,10 @@
 
 <script setup lang="ts">
   // Definición de las propiedades
+  interface benefitList {
+    title: string;
+    items: string[];
+  }
   defineProps({
     image: {
       type: String,
@@ -38,7 +42,7 @@
       required: true
     },
     lists: {
-      type: Array,
+      type: Array<benefitList>,
       required: true
     }
   });
