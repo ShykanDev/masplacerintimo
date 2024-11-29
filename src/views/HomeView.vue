@@ -19,6 +19,48 @@
             <PageSecure/>
           </section>
 
+          <h3 class="mt-6 text-2xl font-bold text-center text-rose-900 font-poppins">Le puede interesar</h3>
+        <section  class="flex justify-center w-full my-6 space-x-4"> <!-- ads section -->
+              <div
+                class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md border-slate-400 bg-slate-100">
+                <span
+                  class="absolute px-2 py-1 text-sm font-semibold text-white rounded -top-4 left-4 bg-slate-500">Anuncio</span>
+                <a href="https://shykandev.github.io/medicinaparahigado/" class="relative w-full h-full" target="_blank"
+                  rel="noopener noreferrer">
+                  <div
+                    class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">
+                    <p class="text-xs font-bold text-center text-white font-poppins md:text-3xl">Jarabe o Cápsulas tu decides</p>
+                    <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">100% Natural</p>
+                  </div>
+                  <img class="w-full h-full bg-contain rounded-md" src="https://shykandev.github.io/medicinaparahigado/assets/mainHome-BjxRmTRc.jpg" alt="">
+                  <p class="absolute text-xs font-bold text-center text-white bg-red-600 top-1 font-poppins md:text-3xl">
+                    ¿Problemas en el Hígado?</p>
+                  <p class="absolute text-xs font-bold text-center text-white bottom-1 font-poppins md:text-3xl">
+                    Conozca Livad</p>
+                </a>
+              </div>
+
+              <div
+                class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md border-slate-400 bg-slate-100">
+                <span
+                  class="absolute px-2 py-1 text-sm font-semibold text-white rounded -top-4 left-4 bg-slate-500">Anuncio</span>
+                <a href="https://shykandev.github.io/medicinaparadiabetes/" class="relative w-full h-full" target="_blank"
+                  rel="noopener noreferrer">
+                  <div
+                    class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">
+                    <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">100% Natural</p>
+                    <!-- <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">Tu </p> -->
+                    <p class="hidden text-sm font-bold text-center text-white font-poppins md:text-3xl md:block">Esta es su solución</p>
+                  </div>
+                  <img class="w-full h-full bg-contain rounded-md" src="https://shykandev.github.io/medicinaparadiabetes/assets/mainHome-EGZr2Qar.jpg" alt="">
+                  <p class="absolute top-0 text-xs font-bold text-center text-white bg-yellow-600 font-poppins md:text-3xl">¿Tienes Diabetes?</p>
+                  <p
+                    class="absolute px-3 text-xs font-bold text-center text-white md:px-0 bottom-3 font-poppins md:text-3xl">
+                    Le recomendamos GLUFAC</p>
+                </a>
+              </div>
+            </section>
+
           <section>
             <h2 class="py-5 text-5xl font-bold text-center font-poppins text-rose-700">Noticias</h2>
           <article class="flex flex-wrap justify-around w-full gap-11">
