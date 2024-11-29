@@ -32,7 +32,10 @@
 
 <script lang="ts" setup>
 import { defineProps } from 'vue';
-
+interface ListItem {
+  ulTitle: string;
+  listItems: string[];
+}
 const props = defineProps({
   title: {
     type: String,
@@ -43,7 +46,7 @@ const props = defineProps({
     default: 'https://storage.googleapis.com/a1aa/image/xHSvAScbY07yMttsu6fns5OrMg9fV1dVXfoUgAtW8f9hFiXPB.jpg'
   },
   list: {
-    type: Array,
+    type: Array<ListItem>,
     default: () => [
       {
         ulTitle: 'Beneficios para Hombres',
