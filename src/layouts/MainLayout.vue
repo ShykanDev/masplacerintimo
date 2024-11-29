@@ -2,16 +2,16 @@
     <div class="">
         <header>
             <section class="w-full bg-white">
-                <div class="flex justify-center w-full py-2 space-x-4 text-lg bg-white font-josefin-sans">
-                    <RouterLink :class="{'border-b-black border-b-2 ': route.name === 'home'}" :to="{ name: 'home' }" >Inicio</RouterLink>
-                    <RouterLink :class="{'border-b-black border-b-2': route.name === 'spaOne'}" :to="{ name: 'spaOne' }" >Beneficios</RouterLink>
-                    <RouterLink :class="{'border-b-black border-b-2': route.name === 'spaTwo'}" :to="{ name: 'spaTwo' }" >Ingredientes</RouterLink>
-                    <RouterLink :class="{'border-b-black border-b-2': route.name === 'spaThree'}" :to="{ name: 'spaThree' }" >Preguntas</RouterLink>
-                    <RouterLink :class="{'border-b-black border-b-2': route.name === 'non'}" :to="{ name: 'home' }" >Prasadam</RouterLink>
+                <div class="flex justify-end w-full py-2 pr-3 space-x-4 text-lg bg-white font-poppins">
+                    <RouterLink :class="{'border-b-rose-900 border-b-2 ': route.name === 'home'}" :to="{ name: 'home' }" >Inicio</RouterLink>
+                    <RouterLink :class="{'border-b-rose-900 border-b-2': route.name === 'spaOne'}" :to="{ name: 'spaOne' }" >Beneficios</RouterLink>
+                    <RouterLink :class="{'border-b-rose-900 border-b-2': route.name === 'spaTwo'}" :to="{ name: 'spaTwo' }" >Ingredientes</RouterLink>
+                    <RouterLink :class="{'border-b-rose-900 border-b-2': route.name === 'spaThree'}" :to="{ name: 'spaThree' }" >Preguntas</RouterLink>
+                    <RouterLink :class="{'border-b-rose-900 border-b-2': route.name === 'non'}" :to="{ name: 'home' }" >Prasadam</RouterLink>
                 </div>
-                <div class="flex items-center justify-around py-1 text-xl text-white font-poppins bg-slate-700">
+                <div class="flex items-center justify-around py-1 text-xl text-white font-poppins bg-rose-700">
                     <img class="w-12" src="../assets/ssl-certificate.png" alt="">
-                    <p class="font-parkinsans">paginaprasadam.com</p>
+                    <p class="font-parkinsans">masplacerintimo.com</p>
                     <img class="w-12" src="https://medicinaparaansiedad.com/img/logo.png" alt="">
                 </div>
             </section>
@@ -24,14 +24,14 @@
         <footer class="relative flex flex-col items-center w-full p-4 text-white bg-sky-800 bg-opacity-85 font-poppins">
   <!-- Título de la sección -->
   <h2 class="mb-4 text-3xl font-bold text-center lg:text-5xl">Contacto</h2>
-  
+
   <!-- Imagen de seguridad SSL -->
   <img
     class="absolute w-10 top-2 right-4 lg:w-12"
     src="https://shykandev.github.io/medicinaparadiabetes/assets/ssl-Cjd7i8VT.png"
     alt="SSL Seguridad"
   />
-  
+
   <!-- Dirección -->
   <div class="flex flex-col items-center mb-6 text-center">
     <div class="flex items-center gap-2">
@@ -54,7 +54,7 @@
       style="border: 0;"
     ></iframe>
   </div>
-  
+
   <!-- Sección de contactos -->
   <section class="flex flex-wrap justify-around w-full gap-4 mb-6 text-center">
     <div class="flex flex-col items-center">
@@ -88,7 +88,7 @@
       >+52 5562516687</a>
     </div>
   </section>
-  
+
   <!-- Pie de página -->
   <div class="text-center">
     <p class="mb-1 text-sm font-bold lg:text-lg">
