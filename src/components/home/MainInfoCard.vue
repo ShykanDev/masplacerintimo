@@ -114,7 +114,16 @@ const props = defineProps({
 
 // Función para resaltar las palabras clave en los elementos li
 const highlightKeywords = (text: string) => {
-  const highlightedText = text.replace(/\b(física)\b/gi, '<span class="font-bold text-orange-700">FÍSICA</span>').replace(/\b(libido)\b/gi, '<span class="font-bold text-orange-700">LIBIDO</span>').replace(/\b(sexual)\b/gi, '<span class="font-bold text-orange-700">SEXUAL</span>').replace(/\b(erecciones)\b/gi, '<span class="font-bold text-orange-700">ERECCIONES</span>').replace(/\b(sexuales)\b/gi, '<span class="font-bold text-orange-700">SEXUALES</span>').replace(/\b(naturales)\b/gi, '<span class="font-bold text-emerald-700">Naturales</span>').replace(/\b(seguro)\b/gi, '<span class="font-bold text-orange-700">SEGURO</span>').replace(/\b(energía)\b/gi, '<span class="font-bold text-orange-700">ENERGÍA</span>');
+  const highlightedText = text.replace(/\b(física)\b/gi, '<span class="italic font-bold text-rose-700">FÍSICA</span>').replace(/\b(libido)\b/gi, '<span class="italic font-bold text-rose-700">LIBIDO</span>').replace(/\b(sexual)\b/gi, '<span class="italic font-bold text-rose-700">SEXUAL</span>').replace(/\b(erecciones)\b/gi, '<span class="italic font-bold text-rose-700">ERECCIONES</span>').replace(/\b(sexuales)\b/gi, '<span class="italic font-bold text-rose-700">SEXUALES</span>').replace(/\b(naturales)\b/gi, '<span class="font-bold text-emerald-700">Naturales</span>').replace(/\b(seguro)\b/gi, '<span class="italic font-bold text-rose-700">SEGURO</span>').replace(/\b(energía)\b/gi, '<span class="italic font-bold text-rose-700">ENERGÍA</span>')
+  .replace(/\b(ansiedad)\b/gi, '<span class="italic font-bold text-rose-700">ANSIEDAD</span>')
+  .replace(/\b(confianza)\b/gi, '<span class="italic font-bold text-rose-700">CONFIANZA</span>')
+  .replace(/\b(conexión)\b/gi, '<span class="italic font-bold text-rose-700">CONEXIÓN</span>')
+  .replace(/\b(calidad)\b/gi, '<span class="italic font-bold text-rose-700">CALIDAD</span>')
+  .replace(/\b(bienestar)\b/gi, '<span class="italic font-bold text-rose-700">BIENESTAR</span>')
+  .replace(/\b(rendimiento)\b/gi, '<span class="italic font-bold text-rose-700">RENDIMIENTO</span>')
+  .replace(/\b(Disfunción)\b/gi, '<span class="italic font-bold text-rose-700">DISFUNCIÓN</span>')
+  .replace(/\b(discreción)\b/gi, '<span class="italic font-bold text-rose-700">DISCRECIÓN</span>')
+  .replace(/\b(estrés)\b/gi, '<span class="italic font-bold text-rose-700">ESTRÉS</span>')
   return highlightedText;
 };
 

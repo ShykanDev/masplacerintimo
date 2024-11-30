@@ -5,6 +5,88 @@
             <h1 class="p-4 py-4 mb-8 text-3xl font-semibold text-center text-white shadow-lg md:text-5xl rounded-b-md font-poppins bg-gradient-to-r from-orange-500 via-pink-600 to-red-700 animate-fade">
     Ingredientes 100% Naturales de InstaGo
 </h1>
+<!-- <section class="flex flex-wrap gap-4 justify-evenly">
+  <img src="https://i.ibb.co/R6yLyLB/left-Insta-Go-removebg-preview.png" alt="">
+  <img src="https://i.ibb.co/fnHctjp/center-Insta-Go-removebg-preview.png" alt="">
+  <img src="https://i.ibb.co/xmVR7h2/right-Insta-Go-removebg-preview.png" alt="">
+</section> -->
+<section class="grid grid-cols-1 gap-6 p-4 md:grid-cols-3 bg-gray-50 font-poppins">
+  <!-- Card 1: Left Bottle -->
+  <div class="flex flex-col items-center p-6 text-center bg-white rounded-lg shadow-lg">
+    <img src="https://i.ibb.co/R6yLyLB/left-Insta-Go-removebg-preview.png" alt="InstaGo Left" class="max-w-[200px] mb-4">
+    <i class="mb-2 text-4xl text-blue-500 fas fa-pills"></i>
+    <h3 class="text-xl font-semibold text-rose-700">Ingredientes Clave</h3>
+    <ul class="mb-4 space-y-2 text-left list-none">
+      <li><strong>Bombax Malabaricum:</strong> 50 mg</li>
+      <li><strong>Pueraria Tuberosa:</strong> 50 mg</li>
+      <li><strong>Sida Cordifolia:</strong> 40 mg</li>
+    </ul>
+    <i class="mb-2 text-4xl text-red-500 fas fa-heartbeat"></i>
+    <h4 class="text-lg font-semibold text-rose-700">Beneficios</h4>
+    <ul class="mb-4 space-y-2 text-left list-none">
+      <li>Aumento de libido</li>
+      <li>Aumento de energía</li>
+      <li>Bienestar general</li>
+    </ul>
+    <i class="mb-2 text-4xl text-green-500 fas fa-capsules"></i>
+    <h4 class="text-lg font-semibold text-rose-700">Uso Sugerido</h4>
+    <ul class="space-y-2 text-left list-none">
+      <li>Dosis: Una cápsula dos veces al día</li>
+      <li>Consulte a su médico para dosis personalizadas</li>
+    </ul>
+  </div>
+
+  <!-- Card 2: Center Bottle -->
+  <div class="flex flex-col items-center p-6 text-center bg-white rounded-lg shadow-lg">
+    <img src="https://i.ibb.co/fnHctjp/center-Insta-Go-removebg-preview.png" alt="InstaGo Center" class="max-w-[200px] mb-4">
+    <i class="mb-2 text-4xl text-blue-500 fas fa-pills"></i>
+    <h3 class="text-xl font-semibold text-rose-700">Ingredientes Clave</h3>
+    <ul class="mb-4 space-y-2 text-left list-none">
+      <li><strong>Tribulus Terrestris:</strong> 50 mg</li>
+      <li><strong>Zingiber Officinale:</strong> 50 mg</li>
+      <li><strong>Withania Somnifera:</strong> 75 mg</li>
+    </ul>
+    <i class="mb-2 text-4xl text-red-500 fas fa-heartbeat"></i>
+    <h4 class="text-lg font-semibold text-rose-700">Beneficios</h4>
+    <ul class="mb-4 space-y-2 text-left list-none">
+      <li>Fortalece la energía</li>
+      <li>Mejora el rendimiento físico</li>
+      <li>Aumenta la resistencia</li>
+    </ul>
+    <i class="mb-2 text-4xl text-green-500 fas fa-capsules"></i>
+    <h4 class="text-lg font-semibold text-rose-700">Uso Sugerido</h4>
+    <ul class="space-y-2 text-left list-none">
+      <li>Tomar una cápsula dos veces al día</li>
+      <li>Consultar a su médico para dosis personalizadas</li>
+    </ul>
+  </div>
+
+  <!-- Card 3: Right Bottle -->
+  <div class="flex flex-col items-center p-6 text-center bg-white rounded-lg shadow-lg">
+    <img src="https://i.ibb.co/xmVR7h2/right-Insta-Go-removebg-preview.png" alt="InstaGo Right" class="max-w-[200px] mb-4">
+    <i class="mb-2 text-4xl text-blue-500 fas fa-pills"></i>
+    <h3 class="text-xl font-semibold text-rose-700">Ingredientes Clave</h3>
+    <ul class="mb-4 space-y-2 text-left list-none">
+      <li><strong>Mucuna Pruriens:</strong> 50 mg</li>
+      <li><strong>Anacyclus Pyrethrum:</strong> 25 mg</li>
+      <li><strong>Piper Nigrum:</strong> 10 mg</li>
+    </ul>
+    <i class="mb-2 text-4xl text-red-500 fas fa-heartbeat"></i>
+    <h4 class="text-lg font-semibold text-rose-700">Beneficios</h4>
+    <ul class="mb-4 space-y-2 text-left list-none">
+      <li>Alivia la fatiga</li>
+      <li>Mejora el bienestar general</li>
+      <li>Equilibra los niveles de energía</li>
+    </ul>
+    <i class="mb-2 text-4xl text-green-500 fas fa-capsules"></i>
+    <h4 class="text-lg font-semibold text-rose-700">Uso Sugerido</h4>
+    <ul class="space-y-2 text-left list-none">
+      <li>Tomar según recomendación médica</li>
+      <li>Consultar las indicaciones del envase</li>
+    </ul>
+  </div>
+</section>
+
             <section class="flex flex-wrap gap-4 justify-evenly">
               <BenefitsCard data-aos="fade-up" v-for="ingredient in ingredients" :key="ingredient.image" :image="ingredient.image" :title="ingredient.title" :summary="ingredient.summary" :lists="ingredient.lists"/>
             </section>
