@@ -12,7 +12,13 @@
             </div>
             <div class="items-center hidden space-x-2 md:flex">
                 <img class="w-12" src="https://i.ibb.co/qNgZsFm/ssl.png" alt="SSL Seguridad">
-                <p class="font-bold font-parkinsans text-rose-900 animate-fade animate-delay-500">masplacerintimo.com</p>
+                <p class="font-bold font-parkinsans animate-fade animate-delay-500">
+  <span class="text-orange-500">mas</span>
+  <span class="text-yellow-500">placer</span>
+  <span class="text-red-500">intimo</span>
+  <span class="text-pink-600">.com</span>
+</p>
+
                 <img class="w-12" src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo">
             </div>
         </div>
